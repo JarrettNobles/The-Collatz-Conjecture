@@ -28,8 +28,8 @@ fn main() {
   //Declaring vectors
   let mut numbers : Vec<i64> = Vec::new();
   let mut seq_length : Vec<i64> = Vec::new();
-  let mut sort_by_nums:[i64;10] = [0; 10];
-  let mut sort_by_len:[i64;10] = [0; 10];
+  let mut sort_by_nums:[i64;11] = [0; 11];
+  let mut sort_by_len:[i64;11] = [0; 11];
   
   //Swapping Varibles
   if a1 > a2 {
@@ -50,6 +50,7 @@ fn main() {
   let mut count = 0;
   let mut index = 0;
   while count < seq_length.len() && count < 10 {
+    //for _i in 1..11{
     if numbers[index] == numbers[index+1] - 1 {
       println!("{}            {}",numbers[index], seq_length[index]);
       sort_by_nums[count] = numbers[index];
@@ -63,6 +64,7 @@ fn main() {
       count = count + 1;
       index = index + 1;
     }
+  //}
   }
   
   //Sorting the largest 10 values by the integer values

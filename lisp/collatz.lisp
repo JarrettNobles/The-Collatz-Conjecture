@@ -109,6 +109,4 @@
     (print-numbers-with-lengths num-arr seqlen-arr)
     (format t "Sorted based on integer size~%")
     (sort-by-num num-arr seqlen-arr)
-    (print-numbers-with-lengths num-arr seqlen-arr)))
-
- 
+    (print-numbers-with-lengths num-arr seqlen-arr))
