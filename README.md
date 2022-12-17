@@ -9,19 +9,39 @@ This program takes command line arguments when you run the file you enter the nu
 
 
 COMPILE INSTRUCTIONS
+
+
+
 GO:
+
 COMPILE AND RUN:  go run collatz.go 50 100
+
+
 FORTRAN:
+
 TO COMPILE: gfortran diffusion.f95
+
 TO RUN: ./a.out 50 100
+
+
 RUST:
+
 TO COMPILE: rustc diffusion.rs
+
 TO RUN: diffusion 50 100
+
+
 JULIA:
+
 TO COMPILE: chmod u+x diffusion.jl
+
 TO RUN: ./diffusion.jl 50 100
+
+
 LISP:
+
 TO COMPILE: chmod u+x diffusion.lisp
+
 TO RUN: ./diffusion.lisp 50 100
 
 
